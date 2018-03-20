@@ -4,9 +4,11 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "rules": {
-        
+
+    "global-require": "error",
+
 		"no-console":0,
-		
+
 		"indent": [
             "error",
             2
@@ -24,4 +26,5 @@ module.exports = {
             "always"
         ]
     }
+    
 };
